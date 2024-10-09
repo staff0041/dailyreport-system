@@ -14,7 +14,6 @@ import com.techacademy.repository.EmployeeRepository;
 @Service
 public class UserDetailService implements UserDetailsService {
     private final EmployeeRepository employeeRepository;
-
     @Autowired
     public UserDetailService(EmployeeRepository repository) {
         this.employeeRepository = repository;
