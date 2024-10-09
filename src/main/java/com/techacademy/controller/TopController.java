@@ -13,8 +13,8 @@ public class TopController {
 
     @GetMapping(value = "/")
     public String top() {
-        return "redirect:/employees";
-        // return "redirect:/reports";
+//        return "redirect:/employees";
+         return "redirect:/reports";
     }
 
 }
